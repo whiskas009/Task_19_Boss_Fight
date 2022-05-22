@@ -1,0 +1,8 @@
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\bin\Debug\Task_19_Boss_Fight.exe.config
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\bin\Debug\Task_19_Boss_Fight.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\bin\Debug\Task_19_Boss_Fight.pdb
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\obj\Debug\Task_19_Boss_Fight.csproj.AssemblyReference.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\obj\Debug\Task_19_Boss_Fight.csproj.SuggestedBindingRedirects.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\obj\Debug\Task_19_Boss_Fight.csproj.CoreCompileInputs.cache
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\obj\Debug\Task_19_Boss_Fight.exe
+C:\Users\danii\YandexDisk\Файлы на компьютер\Gamedev\ЯЮниор\Задачи\Task_19_Boss_Fight\Task_19_Boss_Fight\obj\Debug\Task_19_Boss_Fight.pdb
