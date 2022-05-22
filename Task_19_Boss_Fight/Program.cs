@@ -40,7 +40,7 @@ namespace Task_19_Boss_Fight
                 Console.WriteLine($"Выберите действие: \n1. Выполнить обычную аттаку ({userUsualyAttak} урона и {energyUsualtAttak} энергии)");
                 Console.WriteLine($"2. Выполнить сильную аттаку ({userStrongAttak} урона и {energyStrongtAttak} энергии)");
                 Console.WriteLine($"3. Спрятаться за укрытие и восстановить {energyRecovery} энергии");
-                Console.WriteLine($"4. Выпить лексир повышающий урон (навсегда повышает урон на 10, но уменьшает и здоровья на 20)\n");
+                Console.WriteLine($"4. Выпить лексир повышающий урон (навсегда повышает урон на {increasedDamage}, но уменьшает и здоровья на {decreaseHealthRecovery})\n");
                 int userСhoice = int.Parse(Console.ReadLine());
 
                 switch (userСhoice)
@@ -54,7 +54,9 @@ namespace Task_19_Boss_Fight
                             Console.WriteLine($"Враг наносит Вам {enemyAttak} урона");
                         }
                         else
+                        {
                             Console.WriteLine("У Вас недостаточно энергии для данного действия: \n");
+                        }
                         break;
 
                     case 2:
@@ -66,7 +68,9 @@ namespace Task_19_Boss_Fight
                             Console.WriteLine($"Враг наносит Вам {enemyAttak} урона");
                         }
                         else
+                        {
                             Console.WriteLine("У Вас недостаточно энергии для данного действия: \n");
+                        }
                         break;
 
                     case 3:
@@ -76,9 +80,13 @@ namespace Task_19_Boss_Fight
                             userEnergy += energyRecovery;
                         }
                         else if (userEnergy != maxEnergy)
+                        {
                             userEnergy += energyRecovery;
+                        }
                         else
+                        {
                             Console.WriteLine("У Вас уже полная энергия и здоровье");
+                        }
                         break;
 
                     case 4:
@@ -91,8 +99,10 @@ namespace Task_19_Boss_Fight
                             statusLexir = 1;
                             Console.WriteLine("Лексир применён!");
                         }
-                        else 
+                        else
+                        {
                             Console.WriteLine("Лексир уже применён!");
+                        }
                         break;
                     
                     default: Console.WriteLine("Такого варианта нет!\n");
@@ -102,9 +112,13 @@ namespace Task_19_Boss_Fight
             }
 
             if (userHealth <= 0)
+            {
                 Console.WriteLine("Вы погибли");
+            }
             else
+            {
                 Console.WriteLine("Противник повержен!");
+            }
         }
     }
 }
